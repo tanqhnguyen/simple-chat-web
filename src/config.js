@@ -11,8 +11,8 @@ const config = {
 }
 
 if (process.env.NODE_ENV === 'production') {
-  config.api.url = 'http://chat-api.tannguyen.org'
-  config.faye.url = 'http://chat-faye.tannguyen.org'
+  config.api.url = 'http://simple-chat-api.tannguyen.org'
+  config.faye.url = 'http://simple-chat-faye.tannguyen.org/faye'
 }
 
 export default {
